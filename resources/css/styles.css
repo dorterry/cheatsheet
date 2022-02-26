@@ -55,3 +55,10 @@ body {
     color: green;
     font-weight: bold;
   }
+
+  footer {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-weight: bold;
+  }
