@@ -26,18 +26,20 @@
         <tr>
             <td class="fitwidth"><span class="code-name">background:</span></td>
             <td>sets all background style properties at once, such as color, image, origin and size, or repeat method</td>
-            <td class="fitwidth"><span class="code-example">background: green;</span></td>
+            <td class="fitwidth"><span class="code-example">background: green;<br>
+                background: no-repeat url("../../media/examples/lizard.png");</span></td>
          </tr>
 
         <tr class="even">
             <td class="fitwidth"><span class="code-name">background-attachment:</span></td>
             <td>sets whether a background image's position is fixed within the viewport, or scrolls with its containing block.</td>
-            <td class="fitwidth"><span class="code-example">background-attachment: scroll;</span></td>
+            <td class="fitwidth"><span class="code-example">background-attachment: scroll;<br>background-attachment: fixed;<br>background-attachment: local, scroll;</span></td>
         </tr>
+
         <tr>
             <td><span class="code-name">background-color:</span></td>
             <td>sets the color of the background</td>
-            <td><span class="code-example">background-color: green;</span></td>
+            <td><span class="code-example">background-color: green;<br>background-color: #74992e;<br>background-color: hsl(50, 33%, 25%);</span></td>
         </tr>
 
         <tr class="even">
@@ -49,206 +51,435 @@
         <tr>
             <td><span class="code-name">background-position:</span></td>
             <td>sets the initial position for each background image</td>
-            <td><span class="code-example">background-position: top;</span></td>
+            <td><span class="code-example">background-position: top;<br>background-position: bottom 50px right 100px;<br>background-repeat: space;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">background-repeat:</span></td>
             <td>sets how background images are repeated</td>
-            <td><span class="code-example">background-repeat: repeat;</span></td>
+            <td><span class="code-example">background-repeat: repeat;<br>background-repeat: no-repeat;</span></td>
         </tr>
 
         <tr>
             <td><span class="code-name">border:</span></td>
             <td>sets an element's border</td>
-            <td><span class="code-example">border: solid red;</span></td>
+            <td><span class="code-example">border: solid red;<br>border: thick double #32a1ce;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-bottom:</span></td>
             <td>sets an element's bottom border</td>
-            <td><span class="code-example">border-bottom: dashed red;</span></td>
+            <td><span class="code-example">border-bottom: solid;<br>border-bottom: dashed red;</span></td>
         </tr>
 
         <tr>
             <td><span class="code-name">border-bottom-color:</span></td>
             <td>sets the color of an element's bottom border</td>
-            <td><span class="code-example">border-bottom-color: red;</span></td>
+            <td><span class="code-example">border-bottom-color: red;<br>border-bottom-color: hsl(60, 90%, 50%, .8);</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-bottom-style:</span></td>
             <td>sets the line style of an element's bottom border</td>
-            <td><span class="code-example">border-bottom-style: dotted;</span></td>
+            <td><span class="code-example">border-bottom-style: dotted;<br>border-bottom-style: none;</span></td>
         </tr>
 
         <tr>
             <td><span class="code-name">border-bottom-width:</span></td>
             <td>sets the width of the bottom border of an element</td>
-            <td><span class="code-example">border-bottom-width: 4px;</span></td>
+            <td><span class="code-example">border-bottom-width: 4px;<br>border-bottom-width: thick;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-color:</span></td>
             <td>sets the color of an element's border</td>
-            <td><span class="code-example">border-color: red;</span></td>
+            <td><span class="code-example">border-color: red;<br>border-color: red yellow green transparent;</span></td>
         </tr>
 
         <tr>
             <td><span class="code-name">border-left:</span></td>
             <td>sets all the properties of an element's left border</td>
-            <td><span class="code-example">border-left: dashed red;</span></td>
+            <td><span class="code-example">border-left: dashed red;<br>border-left: thick double #32a1ce;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-left-color:</span></td>
             <td>sets the color of an element's left border</td>
-            <td><span class="code-example">border-left-color: red;</span></td>
+            <td><span class="code-example">border-left-color: red;<br>border-left-color: hsl(60, 90%, 50%, .8);</span></td>
         </tr>
 
-        </tr>
+        <tr>
             <td><span class="code-name">border-left-style:</span></td>
             <td>sets the line style of an element's left border</td>
-            <td><span class="code-example">border-left-style: dotted;</span></td>
+            <td><span class="code-example">border-left-style: dotted;<br>border-left-style: inset;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-left-width:</span></td>
             <td>sets the width of the left border of an element</td>
-            <td><span class="code-example">border-left-width: thick;</span></td>
+            <td><span class="code-example">border-left-width: thick;<br>border-left-width: 4px;</span></td>
         </tr>
 
-        </tr>
+        <tr>
             <td><span class="code-name">border-right:</span></td>
             <td>sets all the properties of an element's right border</td>
-            <td><span class="code-example">border-right: dashed red;</span></td>
+            <td><span class="code-example">border-right: dashed red;<br>border-right: thick double #32a1ce;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-right-color:</span></td>
             <td>sets the color of an element's right border</td>
-            <td><span class="code-example">border-right-color: red;</span></td>
+            <td><span class="code-example">border-right-color: red;<br>border-right-color: rgb(170, 50, 220, .6);</span></td>
         </tr>
 
-        </tr>
+        <tr>
             <td><span class="code-name">border-right-style:</span></td>
             <td>sets the line style of an element's right border</td>
-            <td><span class="code-example">border-right-style: dashed;</span></td>
+            <td><span class="code-example">border-right-style: dashed;<br>border-right-style: groove;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-right-width:</span></td>
             <td>sets the width of the right border of an element</td>
-            <td><span class="code-example">border-right-width: thick;</span></td>
+            <td><span class="code-example">border-right-width: thick;<br>border-right-width: 4px;</span></td>
         </tr>
 
-         </tr>
+         <tr>
             <td><span class="code-name">border-style:</span></td>
             <td>sets the line style for all four sides of an element's border</td>
-            <td><span class="code-example">border-style: dotted;</span></td>
+            <td><span class="code-example">border-style: dotted;<br>border-style: inset;</span></td>
         </tr>
 
         <tr class="even">
             <td><span class="code-name">border-top:</span></td>
             <td>sets all the properties of an element's top border</td>
-            <td><span class="code-example">border-top: solid;</span></td>
+            <td><span class="code-example">border-top: solid;<br>border-top: thick double #32a1ce;</span></td>
         </tr>
 
-        </tr>
-            <td><span class="code-name">border-type-color:</span></td>
+        <tr>
+            <td><span class="code-name">border-top-color:</span></td>
             <td>property sets the color of an element's top border</td>
-            <td><span class="code-example">border-top-color: red;</span></td>
+            <td><span class="code-example">border-top-color: red;<br>border-top-color: transparent;</span></td>
         </tr>
 
         <tr class="even">
-            <td><span class="code-name">border-type-style:</span></td>
+            <td><span class="code-name">border-top-style:</span></td>
             <td>sets the line style of an element's top border</td>
-            <td><span class="code-example">border-top-style: dashed;</span></td>
+            <td><span class="code-example">border-top-style: dashed;<br>border-top-style: solid;</span></td>
         </tr>
 
-        </tr>
+        <tr>
             <td><span class="code-name">border-top-width:</span></td>
             <td>sets the width of the top border of an element</td>
-            <td><span class="code-example">border-top-width: 4px;</span></td>
+            <td><span class="code-example">border-top-width: 4px;<br>border-top-width: thick;</span></td>
         </tr>
 
-        <tr class="even">
-            <td><span class="code-name">border-type-style:</span></td>
-            <td>sets the line style of an element's top border</td>
-            <td><span class="code-example">border-top-style: dashed;</span></td>
-        </tr>
-
-         </tr>
+         <tr class="even">
             <td><span class="code-name">border-width:</span></td>
             <td>sets the width of an element's border</td>
-            <td><span class="code-example">border-width: 0 4px 8px 12px;</span></td>
+            <td><span class="code-example">border-width: 0 4px 8px 12px;<br>border-width: thick;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">break-after:</span></td>
+            <td>sets how page, column, or region breaks should behave after a generated box. If there is no generated box, the property is ignored</td>
+            <td><span class="code-example">break-after: page;<br>break-after: always;<br>break-after: auto;<br>break-after: avoid;
+            </span></td>
         </tr>
 
         <tr class="even">
+            <td><span class="code-name">break-before:</span></td>
+            <td>sets how page, column, or region breaks should behave before a generated box. If there is no generated box, the property is ignored</td>
+            <td><span class="code-example">break-before: page;<br>break-before: right;<br>break-before: auto;<br>break-before: avoid;
+            </span></td>
+        </tr>
+
+        <tr>
             <td><span class="code-name">clear:</span></td>
             <td>sets whether an element must be moved below (cleared) floating elements that precede it - applies to floating and non-floating elements</td>
-            <td><span class="code-example">clear: left;</span></td>
+            <td><span class="code-example">clear: none;<br>clear: left;<br>clear: right;<br>clear: both;</span></td>
         </tr>
 
-        </tr>
+        <tr class="even">
             <td><span class="code-name">clip:</span></td>
             <td>defines a visible portion of an element - applies only to absolutely positioned elements</td>
-            <td><span class="code-example">clip: auto;  clip: rect(1px, 10em, 3rem, 2ch);</span></td>
+            <td><span class="code-example">clip: auto;<br>clip: rect(1px, 10em, 3rem, 2ch);<br>clip: auto;</span></td>
         </tr>
 
-        <tr class="even">
+        <tr>
             <td><span class="code-name">color:</span></td>
             <td>sets the foreground color value of an element's text</td>
-            <td><span class="code-example">color: #00ff00;</span></td>
+            <td><span class="code-example">color: #00ff00;<br>color: hsl(30, 100%, 50%);</span></td>
         </tr>
 
-        </tr>
+        <tr class="even">
             <td><span class="code-name">cursor:</span></td>
             <td>sets the mouse cursor, if any, to show when the mouse pointer is over an element</td>
-            <td><span class="code-example">cursor: help;</span></td>
+            <td><span class="code-example">cursor: help;<br>cursor: wait;</span></td>
         </tr>
 
-        <tr class="even">
+        <tr>
             <td><span class="code-name">display:</span></td>
             <td>sets an element's inner and outer display types</td>
-            <td><span class="code-example">display: inline-block;</span></td>
+            <td><span class="code-example">display: inline-block;<br>display: block flow;
+            </span></td>
         </tr>
 
-        </tr>
+        <tr class="even">
             <td><span class="code-name">filter:</span></td>
             <td>applies graphical effects like blur or color shift to an element</td>
-            <td><span class="code-example">filter: blur(5px);</span></td>
+            <td><span class="code-example">filter: blur(5px);<br>filter: grayscale(80%);</span></td>
         </tr>
 
-        <tr class="even">
+        <tr>
             <td><span class="code-name">float:</span></td>
             <td>places an element on the left or right side of its container, allowing text and inline elements to wrap around it</td>
-            <td><span class="code-example">float: left;</span></td>
+            <td><span class="code-example">float: right;<br>float: left;<br>float: none;</span></td>
         </tr>
 
-        </tr>
+        <tr class="even">
             <td><span class="code-name">font:</span></td>
             <td>sets all the different properties of an element's font</td>
-            <td><span class="code-example">font: italic 1.2em "Fira Sans", serif;</span></td>
+            <td><span class="code-example">font: italic 1.2em "Fira Sans", serif;<br>font: italic small-caps bold 16px/2 cursive;</span></td>
         </tr>
 
-        <tr class="even">
+        <tr>
             <td><span class="code-name">font-family:</span></td>
             <td>specifies a prioritized list of one or more font family names and/or generic family names for the selected element</td>
-            <td><span class="code-example">font-family: Georgia, serif;</span></td>
-        </tr>
-
-        </tr>
-            <td><span class="code-name">font-size:</span></td>
-            <td> sets the size of the font</td>
-            <td><span class="code-example">font-size: 12px;</span></td>
+            <td><span class="code-example">font-family: Georgia, serif;<br>font-family: serif;</span></td>
         </tr>
 
         <tr class="even">
-            <td><span class="code-name">font-family:</span></td>
-            <td>allows you to set all the font variants for a font</td>
-            <td><span class="code-example">font-variant: normal;</span></td>
+            <td><span class="code-name">font-size:</span></td>
+            <td> sets the size of the font</td>
+            <td><span class="code-example">font-size: 12px;<br>font-size: 80%;</span></td>
         </tr>
+
+        <tr>
+            <td><span class="code-name">font-variant:</span></td>
+            <td>allows you to set all the font variants for a font</td>
+            <td><span class="code-example">font-variant: normal;<br>font-variant: small-caps slashed-zero;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">font-weight:</span></td>
+            <td> sets the weight (or boldness) of the font</td>
+            <td><span class="code-example">font-weight: bold;<br>font-weight: 900;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">height:</span></td>
+            <td>specifies the height of an element</td>
+            <td><span class="code-example">height: 150px;<br>height: auto;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">left:</span></td>
+            <td>participates in specifying the horizontal position of a positioned element</td>
+            <td><span class="code-example">left: 20px;<br>left: 4em;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">letter-spacing:</span></td>
+            <td>sets the horizontal spacing behavior between text characters. This value is added to the natural spacing between characters while rendering the text</td>
+            <td><span class="code-example">letter-spacing: 1px;<br>letter-spacing: normal;<br>letter-spacing: .2rem;<br>letter-spacing: -1px;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">line-height:</span></td>
+            <td>sets the height of a line box - commonly used to set the distance between lines of text</td>
+            <td><span class="code-example">line-height: 32px;<br>line-height: normal;<br>line-height: 2.5;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">list-style:</span></td>
+            <td>allows you to set all the list style properties at once</td>
+            <td><span class="code-example">list-style: square;<br>list-style: inside;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">list-style-image:</span></td>
+            <td>sets an image to be used as the list item marker</td>
+            <td><span class="code-example">list-style-image: url("../../media/examples/rocket.svg");</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">list-style-position:</span></td>
+            <td>sets the position of the ::marker relative to a list item</td>
+            <td><span class="code-example">list-style-position: inside;<br>list-style-position: outside;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">list-style-type:</span></td>
+            <td>sets the marker (such as a disc, character, or custom counter style) of a list item element</td>
+            <td><span class="code-example">list-style-type: circle;<br>list-style-type: disc;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">margin:</span></td>
+            <td>sets the margin area on all four sides of an element</td>
+            <td><span class="code-example">margin: 10px 50px 20px 0;<br>margin: 5% 0;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">margin-bottom:</span></td>
+            <td>sets the margin area on the bottom of an element</td>
+            <td><span class="code-example">margin-bottom: 10px;<br>margin-bottom: 10%;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">margin-left:</span></td>
+            <td>sets the margin area on the left side of an element</td>
+            <td><span class="code-example">margin-left: 10px;<br>margin-left: 1em;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">margin-right:</span></td>
+            <td>sets the margin area on the right side of an element</td>
+            <td><span class="code-example">margin-rightt: 10px;<br>margin-right: 0;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">margin-top:</span></td>
+            <td>sets the margin area on the top side of an element</td>
+            <td><span class="code-example">margin-top: 10px;<br>margin-top: 10%;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">overflow:</span></td>
+            <td>sets the desired behavior for an element's overflow</td>
+            <td><span class="code-example">overflow: scroll;<br>overflow: visible;<br>overflow: hidden;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">padding:</span></td>
+            <td>sets the padding area on all four sides of an element at once</td>
+            <td><span class="code-example">padding: 10px 50px 30px 0;<br>padding: 10% 0;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">padding-bottom:</span></td>
+            <td>sets the height of the padding area on the bottom of an element</td>
+            <td><span class="code-example">padding-bottom: 20px;<br>padding-bottom: 1em;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">padding-left:</span></td>
+            <td>sets the width of the padding area to the left of an element</td>
+            <td><span class="code-example">padding-left: 20px;<br>padding-left: 1ch;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">padding-right:</span></td>
+            <td>sets the width of the padding area to the right of an element</td>
+            <td><span class="code-example">padding-right: 20px;<br>padding-right: 0;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">padding-top:</span></td>
+            <td>sets the width of the padding area on the top of an element</td>
+            <td><span class="code-example">padding-top: 20px;<br>padding-top: 10%;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">position:</span></td>
+            <td> sets how an element is positioned in a document - the top, right, bottom, and left properties determine the final location of positioned elements</td>
+            <td><span class="code-example">position: relative;<br>top: 40px; left: 40px;<br><br>position: static;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">stroke-dasharray:</span></td>
+            <td>a presentation attribute defining the pattern of dashes and gaps used to paint the outline of the shape</td>
+            <td><span class="code-example">&lt;line x1="0" y1="3" x2="30" y2="3" stroke="black"
+                stroke-dasharray="4"&gt; </span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">stroke-dashoffset:</span></td>
+            <td>a presentation attribute defining an offset on the rendering of the associated dash array</td>
+            <td><span class="code-example">&lt;line x1="0" y1="5" x2="30" y2="5" stroke="black"<br>
+                stroke-dasharray="3 1"<br>
+                stroke-dashoffset="3"&gt; </span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">text-align:</span></td>
+            <td>sets the horizontal alignment of the content inside a block element or table-cell box</td>
+            <td><span class="code-example">text-align: center;<br>text-align: justify;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">text-decoration:</span></td>
+            <td>sets the appearance of decorative lines on text</td>
+            <td><span class="code-example">text-decoration: underline;<br>text-decoration: underline dotted red;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">text-indent:</span></td>
+            <td>sets the length of empty space (indentation) that is put before lines of text in a block</td>
+            <td><span class="code-example">text-indent: 0;<br>text-indent: 30%;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">text-transform:</span></td>
+            <td>specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized</td>
+            <td><span class="code-example">text-transform: uppercase;<br>text-transform: full-width;<br>text-transform: lowercase;<br>text-transform: capitalize;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">top:</span></td>
+            <td>property participates in specifying the vertical position of a positioned element</td>
+            <td><span class="code-example">top: 20px;<br>top: 10%;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">vertical-align:</span></td>
+            <td>sets vertical alignment of an inline, inline-block or table-cell box</td>
+            <td><span class="code-example">vertical-align: top;<br>vertical-align: sub;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">visibility:</span></td>
+            <td>shows or hides an element without changing the layout of a document - can also hide rows or columns in a &lt;table&gt;</td>
+            <td><span class="code-example">visibility: visible<br>visibility: hidden;<br>visibility: collapse;</span></td>
+        </tr>
+
+        <tr class="even">
+            <td><span class="code-name">width:</span></td>
+            <td>sets an element's width - by default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area</td>
+            <td><span class="code-example">width: 150px;<br>width: 20em;<br>width: 75%;<br>width: auto;</span></td>
+        </tr>
+
+        <tr>
+            <td><span class="code-name">z-index:</span></td>
+            <td>sets the z-order of a positioned element and its descendants or flex items - overlapping elements with a larger z-index cover those with a smaller one</td>
+            <td><span class="code-example">z-index: auto;<br>z-index: 1;<br>z-index: 3;</span></td>
+        </tr>
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
 
 
 
@@ -280,6 +511,10 @@
         </tbody>
 
     </table>
+
+<!--Footer-->
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference#common_css_properties_reference" target="_blank">Source: MDN Web Docs</a></p>
 
 </body>
 </html>
